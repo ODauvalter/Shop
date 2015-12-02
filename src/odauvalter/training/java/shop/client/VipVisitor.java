@@ -14,9 +14,8 @@ public class VipVisitor {
     }
 
     public float getSuperDiscount(){
-        return discount * 1.2f;
+        return discount * 1.1f;
     }
-
     public String getName() {
         return name;
     }
