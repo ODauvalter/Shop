@@ -7,6 +7,7 @@ public class VipVisitor {
     private float discount;
 
     public void buy() {
+        System.out.println("name = " + name);
     }
 
     public void returnGoods() {
