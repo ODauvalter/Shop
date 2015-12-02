@@ -13,6 +13,10 @@ public class VipVisitor {
 
     }
 
+    public float getSuperDiscount(){
+        return discount * 1.2f;
+    }
+
     public String getName() {
         return name;
     }
