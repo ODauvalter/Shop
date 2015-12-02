@@ -7,8 +7,6 @@ public class VipVisitor {
     private float discount;
 
     public void buy() {
-
-
     }
 
     public void returnGoods() {
