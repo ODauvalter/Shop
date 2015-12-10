@@ -1,5 +1,5 @@
 package odauvalter.training.java.shop.goods;
 
 
-public class Televisor {
+public class Televisor extends ElectronicDevice{
 }

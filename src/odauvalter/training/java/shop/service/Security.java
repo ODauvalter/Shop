@@ -1,7 +1,10 @@
 package odauvalter.training.java.shop.service;
 
-/**
- * Created by odauvalter on 29.11.15.
- */
-public class Security {
+public class Security extends BaseEmployee{
+
+    public void openDoor(){
+    }
+
+    public void closeDoor(){
+    }
 }
