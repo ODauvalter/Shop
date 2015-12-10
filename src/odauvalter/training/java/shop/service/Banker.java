@@ -1,4 +1,4 @@
-package odauvalter.training.java.shop.bank;
+package odauvalter.training.java.shop.service;
 
 
 public class Banker {
