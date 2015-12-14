@@ -1,13 +1,22 @@
 package odauvalter.training.java.shop.client;
 
 
-public class BaseVisitor {
+import odauvalter.training.java.shop.Interfaces.VisitorInterface;
+
+public class BaseVisitor implements VisitorInterface {
 
     private String name;
 
-    public void buy(){
+    @Override
+    public void buy() {
     }
 
-    public void returnGoods(){
+    @Override
+    public void returnGoods() {
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 }

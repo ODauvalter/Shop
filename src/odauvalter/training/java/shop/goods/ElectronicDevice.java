@@ -1,7 +1,9 @@
 package odauvalter.training.java.shop.goods;
 
 
-public class ElectronicDevice extends BaseGoods{
+import odauvalter.training.java.shop.Interfaces.ElectronicDeviceInterface;
+
+public class ElectronicDevice implements ElectronicDeviceInterface{
 
     public void on(){
     }
