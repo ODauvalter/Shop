@@ -6,7 +6,11 @@ import odauvalter.training.java.shop.Interfaces.BankInterface;
 public class BaseBank implements BankInterface {
 
     private String name;
-    private String creaditDescription;
+    private String creaditDescription = "credit";
+
+    public BaseBank(String name) {
+        this.name = name;
+    }
 
     @Override
     public void checkInfo() {

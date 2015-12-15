@@ -1,16 +1,16 @@
 package odauvalter.training.java.shop.department;
 
 import odauvalter.training.java.shop.Interfaces.DepartmentInterface;
-import odauvalter.training.java.shop.goods.BaseGoods;
-import odauvalter.training.java.shop.service.BaseEmployee;
+import odauvalter.training.java.shop.Interfaces.EmployeeInterface;
+import odauvalter.training.java.shop.Interfaces.GoodsInterface;
 
 import java.util.ArrayList;
 
 public class BaseDepartment implements DepartmentInterface{
 
     private String name;
-    private ArrayList<BaseEmployee> employeeList;
-    private ArrayList<BaseGoods> goodsList;
+    private ArrayList<EmployeeInterface> employeeList;
+    private ArrayList<GoodsInterface> goodsList;
 
     @Override
     public String getName() {
@@ -22,20 +22,20 @@ public class BaseDepartment implements DepartmentInterface{
     }
 
     @Override
-    public ArrayList<BaseEmployee> getEmployeeList() {
+    public ArrayList<EmployeeInterface> getEmployeeList() {
         return employeeList;
     }
 
-    public void setEmployeeList(ArrayList<BaseEmployee> employeeList) {
+    public void setEmployeeList(ArrayList<EmployeeInterface> employeeList) {
         this.employeeList = employeeList;
     }
 
     @Override
-    public ArrayList<BaseGoods> getGoodsList() {
-        return null;
+    public ArrayList<GoodsInterface> getGoodsList() {
+        return goodsList;
     }
 
-    public void setGoodsList(ArrayList<BaseGoods> goodsList) {
+    public void setGoodsList(ArrayList<GoodsInterface> goodsList) {
         this.goodsList = goodsList;
     }
 }

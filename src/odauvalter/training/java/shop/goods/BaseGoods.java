@@ -1,9 +1,10 @@
 package odauvalter.training.java.shop.goods;
 
 
+import odauvalter.training.java.shop.Interfaces.GoodsInterface;
 import odauvalter.training.java.shop.department.BaseDepartment;
 
-public class BaseGoods {
+public class BaseGoods implements GoodsInterface{
 
     //св-ва, которые будут иметь все товары
     private double price;
@@ -12,4 +13,46 @@ public class BaseGoods {
     private BaseDepartment department;
     private String company;
 
+    @Override
+    public double getPrice() {
+        return price;
+    }
+    public void setPrice(double price){
+        this.price = price;
+    }
+
+    @Override
+    public boolean hasGuarantee() {
+        return hasGuarantee;
+    }
+
+    public void setHasGuarantee(boolean hasGuarantee){
+        this.hasGuarantee = hasGuarantee;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    @Override
+    public BaseDepartment getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(BaseDepartment department){
+        this.department = department;
+    }
+
+    @Override
+    public String getCompany() {
+        return company;
+    }
+    public  void setCompany(String company){
+        this.company = company;
+    }
 }

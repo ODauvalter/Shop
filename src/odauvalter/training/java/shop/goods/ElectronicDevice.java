@@ -3,11 +3,13 @@ package odauvalter.training.java.shop.goods;
 
 import odauvalter.training.java.shop.Interfaces.ElectronicDeviceInterface;
 
-public class ElectronicDevice implements ElectronicDeviceInterface{
+public class ElectronicDevice extends BaseGoods implements ElectronicDeviceInterface{
 
-    public void on(){
+    @Override
+    public void on() {
     }
 
-    public void off(){
+    @Override
+    public void off() {
     }
 }

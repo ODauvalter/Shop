@@ -1,10 +1,10 @@
 package odauvalter.training.java.shop.service;
 
-import odauvalter.training.java.shop.bank.BaseBank;
+import odauvalter.training.java.shop.Interfaces.BankInterface;
 
 public class Banker extends BaseEmployee{
 
-    private BaseBank bank;
+    private BankInterface bank;
 
     public void sendRequest() {
     }
