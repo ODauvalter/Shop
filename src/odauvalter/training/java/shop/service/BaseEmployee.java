@@ -4,7 +4,7 @@ import odauvalter.training.java.shop.Interfaces.DepartmentInterface;
 import odauvalter.training.java.shop.Interfaces.EmployeeInterface;
 import odauvalter.training.java.shop.department.BaseDepartment;
 
-public class BaseEmployee implements EmployeeInterface{
+public abstract class BaseEmployee implements EmployeeInterface{
 
     private String name;
     private DepartmentInterface department;

@@ -4,7 +4,7 @@ package odauvalter.training.java.shop.goods;
 import odauvalter.training.java.shop.Interfaces.GoodsInterface;
 import odauvalter.training.java.shop.department.BaseDepartment;
 
-public class BaseGoods implements GoodsInterface{
+public abstract class BaseGoods implements GoodsInterface{
 
     //св-ва, которые будут иметь все товары
     private double price;

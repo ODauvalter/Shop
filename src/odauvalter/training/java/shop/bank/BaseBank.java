@@ -3,14 +3,15 @@ package odauvalter.training.java.shop.bank;
 
 import odauvalter.training.java.shop.Interfaces.BankInterface;
 
-public class BaseBank implements BankInterface {
-
-    private String name;
-    private String creaditDescription = "credit";
+public abstract class BaseBank implements BankInterface{
 
     public BaseBank(String name) {
         this.name = name;
+        this.creaditDescription = creaditDescription;
     }
+
+    private String name;
+    private String creaditDescription = "credit";
 
     @Override
     public void checkInfo() {

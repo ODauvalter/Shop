@@ -3,7 +3,7 @@ package odauvalter.training.java.shop.client;
 
 import odauvalter.training.java.shop.Interfaces.VisitorInterface;
 
-public class BaseVisitor implements VisitorInterface {
+public abstract class BaseVisitor implements VisitorInterface {
 
     private String name;
 
